@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your personal cookbook—easy, delicious recipes at your fingertips.">
+    <title>Cookbook in Cards</title>
+    <link rel="icon" href="Favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <img src="Favicon.jpg" alt="img" id="logo">
+        <div id="div1">
+            <h1 id="heading1">From my Kitchen to Yours</h1>
+            <h3>Whisk It Up! 🥣</h3>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <div><a href="#">Recipes</a>
+                <div id="dropdown">
+                    <a href="#Rasmalai">Rasmalai</a>
+                    <a href="#Gulaabjamun">Gulaab Jamun</a>
+                    <a href="#Jalebi">Jalebi</a>
+                </div>
+            </div>
+            <a href="#footer">Contact us</a>
+            <input class="search-container" type="text" id="searchInput" placeholder="Search recipes...">
+        </nav>
+    </header>
+    <main id="home">
+        <p>
+            Welcome to your go-to kitchen companion! Whether you're a seasoned chef or just starting your cooking journey, these recipe cards are designed to make preparing delicious meals easy, fun, and inspiring. 
+            Explore handpicked recipes, simple ingredients, and step-by-step instructions — all served with a pinch of love. <br>
+            Let’s Cook Something Delicious!
+        </p><br>
+        <article class="recipe-card" data-title="rasmalai">
+            <div class="div2">
+                <h2 id="Rasmalai">1. Rasmalai</h2>
+                <img src="Rasmalai.jpg" alt="img" width="229.5px" height="153px">
+                <ul class="list" style="text-align: left;">
+                    <li><strong>Preparation Time:</strong> 30 minutes</li>
+                    <li><strong>Cooking Time:</strong> 45 minutes</li>
+                    <button onclick="startTimer(45, 'rasmalai-timer')">Start Timer</button>
+                    <span id="rasmalai-timer"></span>
+                    <li><strong>Servings:</strong> 4–6 people</li>
+                    <li><strong>Yield:</strong> ~12 Rasmalai pieces</li>
+                </ul>
+
+            </div>
+            <div class="div3">
+                <h3>Ingredients List:</h3>
+                <ul>
+                    <li type="none"><b>🟡 For the Rasgullas (Paneer Balls):</b>
+                        <ul type="disc">
+                            <li >1 liter full cream milk (for making chenna/paneer)</li>
+                            <li>2 tablespoons lemon juice or vinegar (diluted with 2 tbsp water)</li>
+                            <li>4 cups water (for boiling)</li>
+                            <li>1 cup sugar (for syrup)</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>🥛 For the Ras (Sweetened Milk):</b>
+                        <ul type="disc">
+                            <li>1 liter full cream milk</li>
+                            <li>5–6 tablespoons sugar (adjust to taste)</li>
+                            <li>¼ teaspoon cardamom powder (elaichi)</li>
+                            <li>8–10 saffron strands (soaked in 1 tbsp warm milk)</li>
+                            <li>10–12 chopped pistachios 10–12 chopped pistachios</li>
+                            <li>10–12 chopped almonds</li>
+                            <li>1 teaspoon rose water or kewra water (optional, for aroma)</li>
+                        </ul>
+                    </li>
+                </ul><br>
+                <h3>Step-by-Step Procedure:</h3>
+                <ul class="steps">
+                    <li type="none"><b>Step 1: Make Chenna (Fresh Paneer)</b>
+                        <ul type="disc">
+                            <li>Boil Milk: Heat 1 liter full cream milk in a pan until it comes to a boil.</li>
+                            <li>Curdle the Milk: Lower the flame and add 2 tbsp lemon juice (diluted with 2 tbsp water), a little at a time, until the milk curdles completely.</li>
+                            <li>Strain and Rinse: Pour through a muslin cloth or fine sieve. Rinse the chenna (curds) with cold water to remove lemony taste.</li>
+                            <li>Drain Water: Squeeze out excess water and hang the cloth for 30–45 minutes to drain completely.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 2: Knead & Shape Rasgullas</b>
+                        <ul type="disc">
+                            <li>Knead: Place the drained chenna on a plate and knead it for 8–10 minutes until smooth and soft.</li>
+                            <li>Shape Balls: Make 12 small, smooth balls, flatten them slightly into disc shapes (they will expand while cooking).</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 3: Cook Rasgullas</b>
+                        <ul type="disc">
+                            <li>Prepare Sugar Syrup: In a wide pan, boil 1 cup sugar with 4 cups water. Stir until sugar dissolves.</li>
+                            <li>Add Discs: Drop the chenna discs into the boiling syrup.</li>
+                            <li>Cook Covered: Cover and cook on high flame for 15 minutes. The rasgullas will double in size.</li>
+                            <li>Cool Down: Turn off heat and let them cool in the syrup.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 4: Prepare the Ras (Flavored Milk)</b>
+                        <ul type="disc">
+                            <li>Boil Milk: In another pan, boil 1 liter full cream milk. Simmer until it reduces to about ¾ quantity.</li>
+                            <li>Flavor: Add following items:-
+                                <ul type="circle">
+                                    <li>5–6 tbsp sugar</li>
+                                    <li>¼ tsp cardamom powder</li>
+                                    <li>Saffron strands soaked in warm milk</li>
+                                    <li>Chopped almonds & pistachios</li>
+                                </ul>
+                            </li>
+                            <li>Simmer: Cook for another 10–15 minutes until slightly thickened.</li>
+                            <li>Cool: Let the milk cool to room temperature, then chill in the refrigerator.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 5: Combine & Serve</b>
+                        <ul type="disc">
+                            <li>Squeeze Rasgullas: Gently press each rasgulla to release extra syrup</li>
+                            <li>Soak in Ras: Add them into the chilled flavored milk (ras).</li>
+                            <li>Chill Before Serving: Refrigerate for 2–4 hours before serving.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </article><br><br>
+        <article class="recipe-card" data-title="gulaab jamun">
+            <div class="div2">
+                <h2 id="Gulaabjamun">2. Gulaab Jamun</h2>
+                <img src="Gulaab jamun.jpg" alt="img" width="229.5px" height="153px">
+                <ul class="list" style="text-align: left;">
+                    <li><strong>Preparation Time:</strong> 25 minutes</li>
+                    <li><strong>Cooking Time:</strong> 30 minutes</li>
+                    <button onclick="startTimer(30, 'gulaabjamun-timer')">Start Timer</button>
+                    <span id="gulaabjamun-timer"></span>
+                    <li><strong>Servings:</strong> 4–6 people</li>
+                    <li><strong>Yield:</strong> ~12–14 Gulab Jamuns</li>
+                </ul>
+            </div>
+            <div class="div3">
+                <h3>Ingredients List:</h3>
+                <ul>
+                    <li type="none"><b>🟤 For the Dough (Jamuns):</b>
+                        <ul type="disc">
+                            <li>1 cup khoya (mawa, unsweetened, grated or crumbled)</li>
+                            <li>2 tablespoons all-purpose flour (maida)</li>
+                            <li>2 tablespoons milk (adjust as needed, for kneading)</li>
+                            <li>¼ teaspoon baking soda</li>
+                            <li>1 teaspoon semolina (suji/rava) – optional, for texture</li>
+                            <li>A pinch of cardamom powder (optional)</li>
+                            <li>Ghee or oil – for deep frying</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>🍯 For the Sugar Syrup:</b>
+                        <ul type="disc">
+                            <li>1½ cups sugar</li>
+                            <li>1½ cups water</li>
+                            <li>3–4 cardamom pods (lightly crushed)</li>
+                            <li>A few saffron strands (optional)</li>
+                            <li>1 teaspoon rose water or kewra essence (for aroma)</li>
+                            <li>1 teaspoon lemon juice (prevents crystallization)</li>
+                        </ul>
+                    </li>
+                </ul><br>
+                <h3>Step-by-Step Procedure:</h3>
+                <ul class="steps">
+                    <li type="none"><b>Step 1: Prepare the Sugar Syrup</b>
+                        <ul type="disc">
+                            <li>Boil Water & Sugar: In a wide pan, mix 1½ cups sugar and 1½ cups water. Heat over medium flame until it comes to a boil</li>
+                            <li>Flavor: Add 3–4 crushed cardamom pods, a few saffron strands (optional), and 1 tsp rose water or kewra essence.</li>
+                            <li>Simmer: Let it simmer for 5–7 minutes to slightly thicken (it should be sticky, not thread-like).</li>
+                            <li>Prevent Crystallization: Add 1 tsp lemon juice, mix well, and turn off the flame. Keep syrup warm but not boiling.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 2: Make the Dough</b>
+                        <ul type="disc">
+                            <li>Mix Ingredients: In a bowl, combine:
+                                <ul type="circle">
+                                    <li>1 cup khoya (grated)</li>
+                                    <li>2 tbsp all-purpose flour</li>
+                                    <li>¼ tsp baking soda</li>
+                                    <li>1 tsp semolina (optional)</li>
+                                    <li>A pinch of cardamom powder (optional)</li>
+                                </ul>
+                            </li>
+                            <li>Knead: Gently knead the mixture with 2 tbsp milk, adding a little at a time, until it forms a soft, smooth, slightly sticky dough. Don’t over-knead or it will become hard.</li>
+                            <li>Rest: Cover and let it rest for 10 minutes</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 3: Shape the Balls</b>
+                        <ul type="disc"><li>Form Balls: Divide the dough into 12–14 equal parts and roll them into smooth, crack-free balls (you can slightly oil your hands).</li></ul>
+                    </li><br>
+                    <li type="none"><b>Step 4: Fry the Jamuns</b>
+                        <ul type="disc">
+                            <li>Heat Ghee or Oil: In a deep pan, heat ghee or oil on low to medium heat. It should be hot but not smoking.</li>
+                            <li>Test First Ball: Drop one ball. If it slowly rises and turns golden evenly, the oil is ready</li>
+                            <li>Fry in Batches: Gently slide in the rest of the balls and fry on low flame, stirring gently for even browning. This takes 6–8 minutes.</li>
+                            <li>Remove: Once golden brown, drain on paper towel.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 5: Soak in Sugar Syrup</b>
+                        <ul type="disc">
+                            <li>Add to Syrup: Immediately transfer the hot fried balls into warm (not hot) sugar syrup.</li>
+                            <li>Soak: Let them soak for at least 2 hours. They will swell and become juicy.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 6: Serve</b>
+                        <ul type="disc"><li>Serve warm or chilled, garnished with chopped nuts or a few saffron strands.</li></ul>
+                    </li>
+                </ul>
+            </div>
+        </article><br><br>
+        <article class="recipe-card" data-title="jalebi">
+            <div class="div2">
+                <h2 id="Jalebi">3. Jalebi</h2>
+                <img src="Jalebi.webp" alt="img" width="229.5px" height="153px">
+                <ul class="list" style="text-align: left;">
+                    <li><strong>Preparation Time:</strong> 10–12 hours (for fermentation)</li>
+                    <li><strong>Cooking Time:</strong> 25 minutes</li>
+                    <button onclick="startTimer(25, 'jalebi-timer')">Start Timer</button>
+                    <span id="jalebi-timer"></span>
+                    <li><strong>Servings:</strong> 4–5 people</li>
+                    <li><strong>Yield:</strong> ~15–18 jalebis</li>
+                </ul>
+                
+            </div>
+            <div class="div3">
+                <h3>Ingredients List:</h3>
+                <ul>
+                    <li type="none"><b>🟠 For the Jalebi Batter:</b>
+                        <ul type="disc">
+                            <li>1 cup all-purpose flour (maida)</li>
+                            <li>2 tablespoons cornflour</li>
+                            <li>½ teaspoon baking powder (or a pinch of baking soda)</li>
+                            <li>¾ cup water (adjust as needed to get pouring consistency)</li>
+                            <li>1 tablespoon yogurt (curd)</li>
+                            <li>A pinch of turmeric powder (for color) or a few drops of orange/yellow food color</li>
+                            <li>Ghee or oil, for deep frying</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>🍯 For the Sugar Syrup:</b>
+                        <ul type="disc">
+                            <li>1 cup sugar</li>
+                            <li>½ cup water</li>
+                            <li>¼ teaspoon cardamom powder (elaichi)</li>
+                            <li>1–2 saffron strands (optional, for aroma and color)</li>
+                            <li>½ teaspoon lemon juice (prevents crystallization)</li>
+                        </ul>
+                    </li>
+                </ul><br>
+                <h3>Step-by-Step Procedure:</h3>
+                <ul class="steps">
+                    <li type="none"><b>Step 1: Prepare the Batter</b>
+                        <ul type="disc">
+                            <li>Mix Dry Ingredients: In a bowl, combine:
+                                <ul type="circle">
+                                    <li>1 cup all-purpose flour (maida)</li>
+                                    <li>2 tbsp cornflour</li>
+                                    <li>½ tsp baking powder</li>
+                                </ul>
+                            </li>
+                            <li>Add Yogurt & Water: Add ½ cup thick yogurt and mix. Gradually add water to make a smooth, thick batter (like pancake batter).</li>
+                            <li>Ferment: Cover and let it ferment in a warm place for 10–12 hours or overnight (until slightly bubbly).</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 2: Make Sugar Syrup</b>
+                        <ul type="disc">
+                            <li>Boil: In a pan, combine:
+                                <ul type="circle">
+                                    <li>1 cup sugar</li>
+                                    <li>½ cup water</li>
+                                    <li>Bring to a boil and simmer until slightly sticky (1-string consistency).</li>
+                                </ul>
+                            </li>
+                            <li>Flavor It: Add ¼ tsp cardamom powder and a few saffron strands. Optionally, add ½ tsp lemon juice to prevent crystallization.</li>
+                            <li>Keep Warm: Turn off the heat but keep the syrup warm (not hot).</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 3: Fry the Jalebis</b>
+                        <ul type="disc">
+                            <li>Heat Oil or Ghee: Heat ghee (or oil) in a flat, wide pan on medium heat.</li>
+                            <li>Pour Batter into Squeeze Bottle: Use a piping bag, ziplock bag with a small cut, or a squeeze bottle.</li>
+                            <li>Pipe Shapes: Squeeze the batter in circular spirals directly into the hot oil.</li>
+                            <li>Fry Until Golden: Cook both sides until crispy and golden brown.</li>
+                        </ul>
+                    </li><br>
+                    <li type="none"><b>Step 4: Soak & Serve</b>
+                        <ul type="disc">
+                            <li>Soak Jalebis: Remove jalebis from oil and immediately soak them in warm sugar syrup for 30 seconds to 1 minute.</li>
+                            <li>Serve Hot: Remove and serve hot for best texture.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </main><br>
+    <footer id="footer">
+        <div class="div4"><img src="Favicon.jpg" alt="img" width="30px" height="30px"></div>
+        <div class="div4">
+            <h3>CONTACT US</h3>
+            <p>Email: <a href="mailto:ravikumar1812005@gmail.com">ravikumar1812005@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919142789391">+919142789391</a></p>
+            <span>Follow us:
+                <a href="https://www.linkedin.com/in/ravi-kumar-bab735310" target="_blank">LinkedIn</a> |
+                <a href="https://www.instagram.com/itz_ravi984?igsh=b3c4ZHZrdm43dmJv" target="_blank">Instagram</a>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>
